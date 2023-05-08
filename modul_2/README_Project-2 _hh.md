@@ -66,13 +66,13 @@ Cоздание модели машинного обучения, которая
 Всего 32333 строк. 
 
 Для соединения с базой postgres в проекте осуществлялось двумя способами:
-connection = f"postgresql+psycopg2://{d['user']}:{d['password']}@{d['host']}:{d['port']}/{d['dbname']}" - для избежания предупреждений при получении результата запроса.  
-connection = psycopg2.connect(
-    dbname=DBNAME,
-    user=USER,
-    host=HOST,
-    password=PASSWORD,
-    port=PORT
+1. connection = f"postgresql+psycopg2://{d['user']}:{d['password']}@{d['host']}:{d['port']}/{d['dbname']}" - для избежания предупреждений при получении результата запроса.    
+2. connection = psycopg2.connect(  
+    dbname=DBNAME,  
+    user=USER,  
+    host=HOST,  
+    password=PASSWORD,  
+    port=PORT  
 ) в запросах, где первый способ оказался не совместим с синтаксисом запроса.
   
 :arrow_up:[к оглавлению](.README.md#Оглавление)
