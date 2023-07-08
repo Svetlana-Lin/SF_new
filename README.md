@@ -22,7 +22,7 @@
 Практику по юниту EDA-4 "Статистические тесты" файл EDA_4, readme  и перечень действующих библиотек к нему
 
 ---
-папка **modul_2** содержит:  
+папка **modul_3** содержит:  
 
 файл итогового проекта "Предсказание рейтинга отелей по данным Booking.com",  readme_Project_3_hoteis  и перечень действующих библиотек к нему    
 (file of the final project 'Hotel rating prediction according to Booking.com', readme_Project_3_hoteis and a list of active libraries for it)  
